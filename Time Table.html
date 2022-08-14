@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <div><h1>Time Table</h1></div>
+     <style>
+
+        div{
+            margin-left: 13cm;
+            justify-content: center;
+            display: flex;
+            width: 300px;
+            border-radius: 75px;
+            background: linear-gradient(225deg, #cacaca, #f0f0f0);
+            box-shadow:  -10px 10px 20px #a4a4a4,
+             10px -10px 20px #ffffff;
+             transition: all 0.5s;
+            
+       
+        }
+        div:hover{
+            background-color:#ffc7f5;
+            transform: translateY(-5px);
+        }
+        table {
+            margin-top: 1cm;
+            margin-left: 2cm;
+            border-collapse: collapse;
+            width:90%;
+            height: 70vh;
+            border-radius: 9px;
+            background: linear-gradient(145deg, #e4dede, #ffffff);
+            box-shadow:  29px 29px 57px #d5cfcf,
+             -29px -29px 57px #ffffff;
+        }
+        table,th,td{
+            border: 1px groove ;
+            padding: 10px;
+    }
+    th,td{
+        text-align: center;
+    }
+        
+        .row{
+            writing-mode:vertical-rl;
+            width: 100px;
+        }
+     </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>DAY</th>
+                <th>9.10am to 10.00am</th>
+                <th>10.00am to 10.50am</th>
+                <th class="row" rowspan="6" > BREAK</th>
+                <th>11.10pm to 12.00pm</th>
+                <th>12.00pm to 12.50 pm</th>
+                <th class="row" rowspan="6" >LUNCH</th>
+                <th>1.50pm to 2.40pm</th>
+                <th>2.40pm to 3.30 pm</th>
+                <th>3.40pm to 4.30pm</th>
+            </tr>
+            <tr>
+                <th>Mon</th>
+                <td>GE 8076</td>
+                <td>GE 8073</td>
+                
+                <td>GE 8076</td>
+                <td>GE 8073</td>
+                <td colspan="3" >EE 8811 - Project Work</td>
+            </tr>
+            <tr>
+                <th>Tue</th>
+                <td>GE 8076</td>
+                <td>GE 8073</td>
+                <td colspan="2" >GATE</td>
+                <td colspan="3" >EE 8811 - Project Work</td>
+            </tr>
+            <tr>
+                <th>Wed</th>
+                <td>GE 8076</td>
+                <td>GE 8073</td>
+                <td>GE 8073</td>
+                <td>GATE</td>
+                <td colspan="3" >EE 8811 - Project Work</td>
+            </tr>
+            <tr>
+                <th>Thu</th>
+                <td colspan="2" >EE 8811 - Project Work</td>
+                <td colspan="2" >GATE</td>
+                <td colspan="3" >EE 8811 - Project Work</td>
+            </tr>
+            <tr>
+                <th>Fri</th>
+                <td colspan="2" >EE 8811 - Project Work</td>
+                
+                <td>GE 8076</td>
+                <td>GE 8073</td>
+                <td colspan="3" >ASSOCIATION ACTIVITIES</td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
